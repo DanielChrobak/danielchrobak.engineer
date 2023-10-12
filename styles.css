@@ -1,36 +1,41 @@
 body {
-  font-family: Arial, sans-serif;
-}
+    font-family: Arial, sans-serif;
+  }
+  
+  .skills-column {
+    width: 425px;
+  }
 
-header {
-  text-align: center;
-  padding: 20px;
-}
-
-.contact-info {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.contact-column {
-  width: 50%;
-  padding: 20px;
-}
-
-.contact-column p {
-  margin: 0;
-}
-
-.skills-column, .projects-column, .education-column, .experience-column, .interests-column {
-  width: 25%;
-  padding: 20px;
-}
-
-.skills-column ul, .projects-column ul, .education-column ul, .experience-column ul, .interests-column ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.skills-column ul li, .projects-column ul li, .education-column ul li, .experience-column ul li, .interests-column ul li {
-  margin-bottom: 10px;
-}
+  .skills-button {
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .skills-icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+  
+  .skills-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-column li {
+    color: #cfe6e6;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 2px;
+    border-radius: 8px;
+    background-color: #7f9195;
+  }
+  

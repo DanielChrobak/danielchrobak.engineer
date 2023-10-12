@@ -6,258 +6,248 @@ body {
   height: 100vh;
   margin: 0;
 }
-
 header {
   text-align: center;
 }
-
 .contact-column {
-    display: flex;
-    background-color: #04242b;
-    color: #ffffff;
-    border-radius: 7px;
-    margin: 10px;
-    width: 800px;
-  }
-  
-  .contact-info-left,
-  .contact-info-right {
-    flex: 1;
-  }
-  
-  .contact-info-left p,
-  .contact-info-right p {
-    margin: 10px;
-  }
-  
-  .contact-info-left {
-    padding-right: 20px;
-  }
-  
-  .contact-info-right {
-    padding-left: 20px;
-  }
-
-  .contact-column a, a:hover {
-    color: #ffffff;
-  }
-
-  .location-button {
-    display: flex;
-    align-items: center;
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    margin-bottom: 5px;
-    font-size: 15px;
-    color: #ffffff;
-    margin-top: 8px;
-    margin-left: 10px;
-  }
-
-  .location-button a {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-  }
-  
-  .location-icon {
-    width: 28px;
-    height: 28px;
-    margin-right: 7px;
-  } 
-
-  .email-button {
-    display: flex;
-    align-items: center;
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    margin-bottom: 10px;
-    font-size: 15px;
-    color: #ffffff;
-    margin-top: 8px;
-    margin-left: 10px;
-  }
-
-  .email-button a {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-  }
-  
-  .email-icon {
-    width: 28px;
-    height: 28px;
-    margin-right: 7px;
-  } 
-
-  .phone-button {
-    display: flex;
-    align-items: center;
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    margin-bottom: 10px;
-    font-size: 15px;
-    color: #ffffff;
-    margin-top: 8px;
-  }
-
-  .phone-button a {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-  }
-  
-  .phone-icon {
-    width: 28px;
-    height: 28px;
-    margin-right: 7px;
-  } 
-
-  .github-button {
-    display: flex;
-    align-items: center;
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    margin-bottom: 5px;
-    font-size: 15px;
-  }
-  
-  .github-button a {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-  }
-  
-  .github-icon {
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
-  } 
-
-  .things-column {
-    display: flex;
-    justify-content: space-between;
-    max-width: 800px;
-    width: 100%;
-    margin: 10px;
-    margin-top: 30px;
-  }
-
-  p {
-    font-size: 14px;
-    margin-left: 6px;
-  }
-  
-  .left-column, .right-column {
-    flex: 1;
-    padding: 0 10px;
-  }
-
-  .education-button {
-    display: inline-flex;
-    align-items: center;
-    border: none;
-    background-color: transparent;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .education-icon {
-    width: 35px;
-    height: 35px;
-    margin-right: 10px;
-  }
-
-  .enrolled-text {
-    font-weight: bold;
-    font-size: 17px;
-    margin: 0px;
-    margin-left: 5px;
-  }
-
-  .school-text {
-    margin: 0px;
-    font-size: 16px;
-    margin-left: 5px;
-  }
-
-  .school-date {
-    margin: 0px;
-    margin-left: 5px;
-    font-size: 12px;
-    margin-top: 5px;;
-    color: grey;
-  }
-
-  .languages-button {
-    display: inline-flex;
-    align-items: center;
-    border: none;
-    background-color: transparent;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .languages-icon {
-    width: 35px;
-    height: 35px;
-    margin-right: 10px;
-  }
-
-  .skills-column {
-    width: 450px;
-  }
-
-  .skills-button {
-    display: inline-flex;
-    align-items: center;
-    border: none;
-    background-color: transparent;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .skills-icon {
-    width: 35px;
-    height: 35px;
-    margin-right: 10px;
-  }
-  
-  .skills-column ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .skills-column li {
-    color: #ffffff;
-    display: inline-block;
-    margin: 0 10px 10px 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border: 2px;
-    border-radius: 8px;
-    background-color: #7f9195;
-    margin-left: 5px;
-  }
-
-  .certificates-button {
-    display: inline-flex;
-    align-items: center;
-    border: none;
-    background-color: transparent;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .certificates-icon {
-    width: 35px;
-    height: 35px;
-    margin-right: 11px;
-  }
-  
+  display: flex;
+  background-color: #04242b;
+  color: #ffffff;
+  border-radius: 7px;
+  margin: 10px;
+  width: 800px;
+}
+.contact-info-left, .contact-info-right {
+  flex: 1;
+}
+.contact-info-left p, .contact-info-right p {
+  margin: 10px;
+}
+.contact-info-left {
+  padding-right: 20px;
+}
+.contact-info-right {
+  padding-left: 20px;
+}
+.contact-column a, a:hover {
+  color: #ffffff;
+}
+.location-button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 5px;
+  font-size: 15px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.location-button a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.location-button a:hover {
+  color: grey;
+}
+.location-icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 7px;
+}
+.email-button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 15px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.email-button a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.email-button a:hover {
+  color: grey;
+}
+.email-icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 7px;
+}
+.phone-button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 15px;
+  margin-top: 8px;
+}
+.phone-button a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.phone-icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 7px;
+}
+.github-button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.github-button a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.github-button a:hover {
+  color: grey;
+}
+.github-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.things-column {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 100%;
+  margin: 10px;
+  margin-top: 30px;
+}
+p {
+  font-size: 14px;
+  margin-left: 6px;
+}
+.left-column, .right-column {
+  flex: 1;
+  padding: 0 10px;
+}
+.education-button {
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: bold;
+}
+.education-icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+.enrolled-text {
+  font-weight: bold;
+  font-size: 17px;
+  margin: 0px;
+  margin-left: 5px;
+}
+.school-text {
+  margin: 0px;
+  font-size: 16px;
+  margin-left: 5px;
+}
+.school-date {
+  margin: 0px;
+  margin-left: 5px;
+  font-size: 12px;
+  margin-top: 5px;
+ ;
+  color: grey;
+}
+.projects-button {
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: bold;
+}
+.projects-icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+.languages-button {
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: bold;
+}
+.languages-icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+.skills-column {
+  width: 450px;
+}
+.skills-button {
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: bold;
+}
+.skills-icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+.skills-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+.skills-column li {
+  color: #ffffff;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 2px;
+  border-radius: 8px;
+  background-color: #7f9195;
+  margin-left: 5px;
+}
+.certificates-button {
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: bold;
+}
+.certificates-icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 11px;
+}
+.certificates-column a {
+  display: flex;
+  align-items: center;
+  color: black;
+  margin: -5px;
+}
+.certificates-column a:hover {
+  color: grey;
+}

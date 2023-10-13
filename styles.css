@@ -335,5 +335,6 @@ body {
     }
     .language-column {
       width: 100%;
+      flex-direction: column;
     }
   }  
